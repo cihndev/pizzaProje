@@ -47,3 +47,27 @@ class decorator:
         return self.component.get_cost() + Pizza.get_cost(self)
     def get_description(self):
         return self.component.get_description() + ' ' + Pizza.get_description(self)
+
+class Zeytin(decorator):
+    def __init__(self):
+        pass
+
+class Mantar(decorator):
+    def __init__(self):
+        pass
+
+class Keci_peyniri(decorator):
+    def __init__(self):
+        pass
+
+class Et(decorator):
+    def __init__(self):
+        pass
+
+class Sogan(decorator):
+    def __init__(self):
+        pass
+
+class Misir(decorator):
+    def __init__(self):
+        pass
